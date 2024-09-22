@@ -1,6 +1,6 @@
 .container {
     width: 370px;
-    outline:  solid red 1px;
+    outline:  solid rgb(115, 255, 0) 1px;
     margin:  0 auto;
     height: 1000px;
 }
