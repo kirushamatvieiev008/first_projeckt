@@ -4,6 +4,14 @@
     height: 1000px;
     margin:  0;
     margin:  0 auto;
+    /* margin-left: -5px; */
+}
+
+.left {
+    width: 591px;
+    margin-left: -5px;
+    background-color: #ECEDEF;
+    height: 1600px;
 }
 
 .background_card {
@@ -87,13 +95,6 @@ img {
     margin-top: 99px;
 }
 
-.line {
-    
-    width: 100%;
-    outline: solid red 1px;
-    margin-top: -45px;
-    height: 45px;
-}
 
 .today {
     text-align: center;
@@ -102,4 +103,58 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+.transaction {
+    width: 54px;
+    height: 54px;
+}
+
+.payments {
+    margin-top: 54px;
+    margin-left: 22px;
+    display: flex;
+    /* position: absolute; */
+    padding: 0;
+    border:  none;
+    cursor: pointer;
+    background-color: #ECEDEF;
+}
+
+.payments_2 {
+    margin-top: 19.6px;
+    margin-left: 22px;
+    display: flex;
+    padding: 0;
+    border:  none;
+    cursor: pointer;
+    background-color: #ECEDEF;
+}
+
+.num_card {
+    
+}
+
+ul {
+    padding-left: 0;
+}
+
+.sending_card {
+    padding-left: 23px;
+}
+
+.minus {
+    margin-left: 281px;
+    margin-top: 13px;
+    /* border: 1px red solid; */
+}
+
+.line {
+    
+    width: 45px;
+    outline: solid red 1px;
+    margin-top: -60px;
+    height: 100px;
+    margin-left: 523px;
 }
