@@ -1,8 +1,44 @@
 .container {
     width: 591px;
-    /* outline:  solid rgb(115, 255, 0) 1px; */
+    outline:  solid rgb(255, 0, 0) 1px;
     /* height: 1000px; */
     margin:  0;
     margin:  0 auto;
     /* margin-left: -5px; */
+    background-color: black;
+}
+
+body {
+    margin: 0;
+}
+
+
+header {
+    display: flex;
+    justify-content: end;
+    gap: 23px;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+
+.home_set {
+    margin-left: auto;
+    width: 25px;
+    height: 37px;
+}
+
+.dzvinok {
+    width: 25px;
+    height: 30px;
+    padding-right: 24px;
+}
+
+h1 {
+    color: white;
+    padding-left: 24px;
+    margin: 0;
+}
+
+.cards {
+    width: 591px;
 }
