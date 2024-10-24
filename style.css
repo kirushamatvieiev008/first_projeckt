@@ -40,6 +40,38 @@ h1 {
 }
 
 .cards {
-    width: 591px;
-    padding-top: 13px;
+    width: 543px;
+    margin: 0 auto;
+     display: block;
+     /* text-align: center; */
+    padding-top: 30px;
+}
+
+.current_money {
+    color: white;
+    margin-top: -185px;
+    text-align: center;
+}
+
+.card_num {
+    margin-top: 116px;
+    color: white;
+    padding-left: 180px;
+}
+
+.line {
+    /* outline: solid rgb(51, 255, 0) 1px; */
+    position: absolute;
+    /* width: 1px; */
+    height: 100%;
+    
+    z-index: 2;
+    top: 0px;
+    left: 555px;
+}
+
+.date {
+    color: white;
+    margin-top: -18px;
+    padding-left: 319px;
 }
